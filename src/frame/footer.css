@@ -1,0 +1,89 @@
+footer {
+    width: 100%;
+}
+.footer-contents {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #b3b3b3;
+    margin-top: 60px;
+}
+.footer-contents> div {
+    width: 33.33333%;
+    padding: 60px 10px;
+}
+.footer-content1 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.footer-content1 img {
+    width: 100%;
+}
+.footer-content2 {
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 19px;
+}
+.footer-hello {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 50px;
+}
+.footer-intro {
+    font-size: 2.5rem;
+}
+/* 연락처 */
+.footer-content3 {
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.footer-content3 dl {
+    line-height: 22px;
+}
+.footer-content3 dl dt {
+    font-size: 1.4rem;
+    color: #8f8f8f;
+}
+.footer-content3 dl dt:nth-child(3),
+.footer-content3 dl dt:nth-child(5){
+    margin-top: 1.2em;
+}
+.footer-content3 dl dd {
+    font-size: 1.5rem;
+    color: #2e2e2e;
+}
+.real-footer {
+    width: 100vw;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #b3b3b3;
+}
+.copyright {
+    text-align: center;
+}
+.copyright span {
+    font-size: 1rem;
+}
+@media screen and (orientation:portrait){
+    .footer-contents {
+        width: 100vw;
+    }
+    .footer-content1{
+        display: none;
+    }
+    .footer-contents> div{
+        width: 50%;
+    }
+}

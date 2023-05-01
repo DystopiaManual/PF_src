@@ -1,0 +1,130 @@
+.sillajen-wrap {
+    width: 80%;
+    height: 80vh;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 10px;
+    position: relative;
+}
+.sillajen-wrap h2 {
+    font-size: 7rem;
+    letter-spacing: -0.5px;
+    line-height: 2.4rem;
+    color: #000000;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Poppins', sans-serif;
+}
+.sillajen-flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.sillajen-imgbox {
+    width: 70%;
+}
+.dl-wrap {
+    text-align: left;
+    width: 50%;
+    padding-left: 6%;
+    letter-spacing: -0.5px;
+}
+.sillajen-imgbox img {
+    width: 100%;    
+    max-width: 500px;
+}
+.dl-wrap dt:first-child{
+    margin-top:5vh;
+}
+.dl-wrap dt {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.dl-wrap dd {
+    font-size: 1.5rem;
+    margin-bottom: 26px;
+    color: #000000;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+    
+}
+.goback-btn {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    z-index: 50;
+    top: 10%;
+    left: 13%;
+    font-size: 2rem;
+    background-color: rgba(68, 133, 253, 0.5);
+    cursor: pointer;
+    border-radius: 50%;
+    transform: all 200ms;
+}
+.goback-btn button {
+    width: 100%;
+    cursor: pointer;
+    
+}
+.goback-btn button img {
+    width: 100%;
+    padding: 25%;
+    /* filter: invert(9%) sepia(72%) saturate(4398%) hue-rotate(219deg) brightness(103%) contrast(95%); */
+    filter: invert(100%) sepia(3%) saturate(7414%) hue-rotate(69deg) brightness(113%) contrast(102%);
+    transition: all 100ms;
+}
+.goback-btn:hover {
+    background-color: #2568fa;
+    transition: all 500ms;
+}
+.goback-btn button:hover img {
+    filter: invert(100%) sepia(3%) saturate(7414%) hue-rotate(69deg) brightness(113%) contrast(102%);
+}
+@media screen and (max-width: 1550px){
+    .sillajen-wrap h2 {
+        font-size: 3rem;
+        left: 50.5%;
+    }
+    .sillajen-imgbox {
+        display: none;
+    }
+    .dl-wrap {
+        text-align: center;
+        width: 70%;
+        padding-left: 0%;
+    }
+    .dl-wrap dt {
+        font-size: 1.3rem;
+    }
+    .dl-wrap dd {
+        font-size: 1.15rem;
+    }
+    .goback-btn {
+        width: 20px;
+        height: 20px;
+    }
+    .sillajen-imgbox img {
+        width: 100%;    
+        max-width: 500px;
+    }
+    .dl-wrap dt:first-child{
+        margin-top:30%;
+    }
+    .dl-wrap dt {
+        color: #000000;
+        margin-bottom: 1vh;
+        font-family: 'Poppins', sans-serif;
+    }
+}
